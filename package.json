@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/nhall97/sfdx-monorepo-workspace#readme",
   "workspaces": [
-    "packages\\my-first-package"
+    "packages\\sfdx-core-package",
+    "packages\\sfdx-bonus-package"
   ]
 }
