@@ -1,8 +1,8 @@
 {
-  "name": "salesforce-app",
+  "name": "sfdx-core-package",
   "private": true,
   "version": "1.0.0",
-  "description": "Salesforce App",
+  "description": "Core package functionality",
   "scripts": {
     "lint": "npm run lint:lwc && npm run lint:aura",
     "lint:aura": "eslint **/aura/**",
