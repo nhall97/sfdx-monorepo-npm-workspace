@@ -1,8 +1,8 @@
 {
-  "name": "salesforce-app",
+  "name": "sfdx-bonus-package",
   "private": true,
   "version": "1.0.0",
-  "description": "Salesforce App",
+  "description": "Bonus package functionality",
   "scripts": {
     "lint": "npm run lint:lwc && npm run lint:aura",
     "lint:aura": "eslint **/aura/**",
