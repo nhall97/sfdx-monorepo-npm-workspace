@@ -12,4 +12,7 @@ PoC npm workspaces working with multiple sfdx projects eg. packages
 
 # Outcomes
  Are there any advantages to developing packages in a workspace?
-   
+  
+  
+## PreReqs
+<li> npm 7.0 >
