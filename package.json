@@ -1,0 +1,19 @@
+{
+  "name": "sfdx-monorepo-workspace",
+  "version": "1.0.0",
+  "description": "PoC npm workspaces working with multiple sfdx projects eg. packages",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nhall97/sfdx-monorepo-workspace.git"
+  },
+  "author": "nathan.edward.hall97@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nhall97/sfdx-monorepo-workspace/issues"
+  },
+  "homepage": "https://github.com/nhall97/sfdx-monorepo-workspace#readme"
+}
