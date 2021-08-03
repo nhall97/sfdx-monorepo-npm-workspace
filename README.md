@@ -1,5 +1,5 @@
 # sfdx-monorepo-workspace
-PoC npm workspaces working with multiple sfdx projects eg. packages
+sfdx monorepo using NPM Workspaces to work with multiple sfdx projects eg. packages
 
 
 ## ToDo
