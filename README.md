@@ -4,10 +4,10 @@ PoC npm workspaces working with multiple sfdx projects eg. packages
 
 ## ToDo
 <ol>
-  <li> Create workspace
-  <li> Create a first package
-  <li> Create a second package
-  <li> Figure out how commands interact across packages
+  <li> Create workspace         -Completed-
+  <li> Create a first package   -Completed-
+  <li> Create a second package  -Completed-
+  <li> 
 </ol>
 
 # Outcomes
@@ -17,3 +17,6 @@ PoC npm workspaces working with multiple sfdx projects eg. packages
 ## PreReqs
 <li> npm 7.0 >
 <lI> husky > v7.0.1 due to this https://github.com/typicode/husky/issues/1003#issuecomment-874667232
+
+## Lessons Learned
+<li> Husky should be installed in monorepo root - seems to fix issues with installs only in packages
