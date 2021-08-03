@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/nhall97/sfdx-monorepo-workspace/issues"
   },
-  "homepage": "https://github.com/nhall97/sfdx-monorepo-workspace#readme"
+  "homepage": "https://github.com/nhall97/sfdx-monorepo-workspace#readme",
+  "workspaces": [
+    "packages\\my-first-package"
+  ]
 }
