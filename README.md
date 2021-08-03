@@ -1,7 +1,27 @@
 # sfdx-monorepo-workspace
 sfdx monorepo using NPM Workspaces to work with multiple sfdx projects eg. packages
 
+The project is structured in the following
+'packages/
+    /sfdx-core-package
+        /package.json
+    /sfdx-bonus-package
+        /package.json
+ package.json'
+ 
+ This is to provide a monorepo structure to our sfdx packages. The idea being that you can clone one repo, and work across many packages - to help make dependency management easier as well as refactoring.
 
+
+The goal is to be able to provide a template sfdx-monorepo-workspace - to allow people to follow the same pattern with ease.
+
+## Instructions
+//Check prereqs below before starting (npm > 7.0)
+'git clone <repo>'
+'npm install'
+
+test out below workspace commands that you're familiar with with sfdx:
+'npm lint'  : run linting across core package, and bonus package
+  
 ## ToDo
 <ol>
   <li> Create workspace                           -Completed-
