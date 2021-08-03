@@ -16,3 +16,4 @@ PoC npm workspaces working with multiple sfdx projects eg. packages
   
 ## PreReqs
 <li> npm 7.0 >
+<lI> husky > v7.0.1 due to this https://github.com/typicode/husky/issues/1003#issuecomment-874667232
