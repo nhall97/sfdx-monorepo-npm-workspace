@@ -2,14 +2,14 @@
 sfdx monorepo using NPM Workspaces to work with multiple sfdx projects eg. packages
 
 The project is structured in the following
-'''
+```
 packages/
     /sfdx-core-package
         /package.json
     /sfdx-bonus-package
         /package.json
  package.json'
- '''
+ ```
  
 This is to provide a monorepo structure to our sfdx packages. The idea being that you can clone one repo, and work across many packages - to help make dependency management easier as well as refactoring.
 
