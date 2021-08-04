@@ -12,3 +12,7 @@ steps:
   - name: node
     entrypoint: npm
     args: ['ls']
+  - name: node
+    entrypoint: npm
+    args: ['test', '--ws']
+    dir: ../
