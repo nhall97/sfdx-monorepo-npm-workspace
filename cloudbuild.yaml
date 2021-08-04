@@ -4,4 +4,4 @@ steps:
     args: ['install']
   - name: node
     entrypoint: npm
-    args: ['run test:unit --ws']
+    args: ['run', 'test:unit', '--ws']
