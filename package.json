@@ -4,7 +4,7 @@
   "description": "PoC npm workspaces working with multiple sfdx projects eg. packages",
   "main": "index.js",
   "engines": {
-    "npm": "^7.20.2",
+    "npm": "7.19.0",
     "node": "16.6.1"
   },
   "scripts": {
