@@ -7,7 +7,7 @@ steps:
     args: ['-v']
   - name: node
     entrypoint: npm
-    args: ['install']
+    args: ['ci']
     dir: sfdx-monorepo-workspace
   - name: node
     entrypoint: npm
