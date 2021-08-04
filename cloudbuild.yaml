@@ -8,6 +8,7 @@ steps:
   - name: node
     entrypoint: npm
     args: ['install']
+    dir: /sfdx-monorepo-workspace
   - name: node
     entrypoint: npm
     args: ['run', 'test:unit', '--ws']
