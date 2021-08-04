@@ -1,5 +1,5 @@
 steps:
-  - name: node
+  - name: node:16.6.1
     entrypoint: npm
     args: ['-v']
   - name: node
