@@ -7,6 +7,9 @@ steps:
     args: ['-v']
   - name: node
     entrypoint: npm
+    args: ['init']
+  - name: node
+    entrypoint: npm
     args: ['install']
   - name: node
     entrypoint: npm
