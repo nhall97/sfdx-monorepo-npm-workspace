@@ -14,8 +14,6 @@ steps:
     args: ['ls']
   - name: node
     entrypoint: npm
-    args: ['test', '--ws']
-    dir: .
-
+    args: ['test']
 
     
