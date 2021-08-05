@@ -18,5 +18,5 @@ steps:
     args: ['ls']
   - name: node
     entrypoint: npm
-    args: ['test']
+    args: ['run','test', '--workspaces']
     dir: sfdx-monorepo-workspace
