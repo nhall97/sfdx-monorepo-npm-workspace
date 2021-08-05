@@ -8,7 +8,9 @@ steps:
   - name: node
     entrypoint: npm
     args: ['run', 'log-cwd']
-    dir: sfdx-monorepo-workspace
+  - name: node
+    entrypoint: npm
+    args: ['ci']
   - name: node
     entrypoint: npm
     args: ['ls']
