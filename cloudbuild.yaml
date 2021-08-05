@@ -7,7 +7,7 @@ steps:
     args: ['-v']
   - name: node
     entrypoint: npm
-    args: ['cit']
+    args: ['log-cwd']
     dir: sfdx-monorepo-workspace
   - name: node
     entrypoint: npm
@@ -16,3 +16,6 @@ steps:
     entrypoint: npm
     args: ['test', '--ws']
     dir: .
+
+
+    

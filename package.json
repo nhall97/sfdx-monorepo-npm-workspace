@@ -8,7 +8,9 @@
     "node": "16.6.1"
   },
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "log-cwd": "node -e \"console.log(process.cwd())\"",
+    "change-cwd-test": "cd packages && node -e \"console.log(process.cwd())\""
   },
   "repository": {
     "type": "git",
