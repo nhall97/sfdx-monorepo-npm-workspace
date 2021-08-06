@@ -8,14 +8,20 @@ steps:
   - name: node
     entrypoint: npm
     args: ['run', 'log-cwd']
-    dir: sfdx-monorepo-workspace
+    dir: /sfdx-monorepo-workspace
   - name: node
     entrypoint: npm
-    args: ['ci']
+    args: ['run', 'change-cwd-test']
+  - name: node
+    entrypoint: npm
+    args: ['intall']
     dir: sfdx-monorepo-workspace
   - name: node
     entrypoint: npm
     args: ['ls']
+  - name: node
+    entrypoint: npm
+    args: ['run','test', '--workspaces']
   - name: node
     entrypoint: npm
     args: ['run','test', '--workspaces']
