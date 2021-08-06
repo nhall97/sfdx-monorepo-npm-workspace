@@ -11,10 +11,13 @@ steps:
     dir: sfdx-monorepo-workspace
   - name: node
     entrypoint: npm
-    args: ['run', 'change-cwd-test']
+    args: ['run', 'cd-packages-cwd-test']
   - name: node
     entrypoint: npm
-    args: ['intall']
+    args: ['run', 'cd-core-package-cwd-test']
+  - name: node
+    entrypoint: npm
+    args: ['install']
     dir: sfdx-monorepo-workspace
   - name: node
     entrypoint: npm
