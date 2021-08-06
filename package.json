@@ -11,7 +11,7 @@
     "test": "test",
     "log-cwd": "node -e \"console.log(process.cwd())\"",
     "cd-packages-cwd-test": "cd packages && node -e \"console.log(process.cwd())\"",
-    "cd-core-packagee-cwd-test": "cd packages/sfdx-core-package && node -e \"console.log(process.cwd())\""
+    "cd-core-packages-cwd-test": "cd packages/sfdx-core-package && node -e \"console.log(process.cwd())\""
   },
   "repository": {
     "type": "git",

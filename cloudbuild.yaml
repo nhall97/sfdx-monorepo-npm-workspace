@@ -14,7 +14,7 @@ steps:
     args: ['run', 'cd-packages-cwd-test']
   - name: node
     entrypoint: npm
-    args: ['run', 'cd-core-package-cwd-test']
+    args: ['run', 'cd-core-packages-cwd-test']
   - name: node
     entrypoint: npm
     args: ['install']
