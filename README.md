@@ -37,6 +37,8 @@ test out below workspace commands that you're familiar with with sfdx:
 # Outcomes
  Are there any advantages to developing packages in a workspace?
 
+ BLOCKED: Cloudbuild and npm workspaces does not seem to be working correctly.
+
 ## SFDX Command Validations
 | SFDX Command                                                                                                               | Workspace Command            | Working? |
 |----------------------------------------------------------------------------------------------------------------------------|------------------------------|----------|
